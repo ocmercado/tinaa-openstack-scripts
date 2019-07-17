@@ -1,0 +1,2 @@
+@reboot /root/scripts/enable_ssh_pw.sh >> /root/scripts/log/enable_ssh_pw.log 2>&1
+0 3 * * *  scl enable python27 /root/scripts/svc-backup.sh >> /root/scripts/log/svc-backup.log 2>&1
